@@ -4,8 +4,6 @@
 
 目前Hyperledger Composer支持Ubuntu Linux 14.04 / 16.04 LTS \(64-bit\), Mac OS 10.12。经测试，Debian 8.x亦支持。
 
-
-
 依赖项如下所示：
 
 * Docker Engine:  17.03 +
@@ -18,13 +16,19 @@
 
 如果你使用的是Ubuntu，那么恭喜，你可以直接使用官方提供的bash文件自动完成上述依赖项的安装。如不能使用脚本安装，则需通过手动方法完成相应安装。
 
+
+
 如使用脚本安装，你可以使用curl将该脚本文件下载下来：
 
-`curl -O https://raw.githubusercontent.com/hyperledger/composer-sample-applications/master/packages/getting-started/scripts/prereqs-ubuntu.sh`
+`curl -O https://raw.githubusercontent.com/hyperledger/composer-sample-applications/master/packages/getting-started/scripts/prereqs-ubuntu.sh`
+
+
 
 修改权限：
 
 `chmod u+x prereqs-ubuntu.sh`
+
+
 
 运行脚本文件：
 
@@ -37,6 +41,8 @@
 阿里云的安装脚本
 
 `curl -sSL http://acs-public-mirror.oss-cn-hangzhou.aliyuncs.com/docker-engine/internet | sh -`
+
+
 
 
 
@@ -62,13 +68,21 @@
 
 
 
+快速搭建一个示例应用可以选择
+
+`git clone https://github.com/hyperledger/composer-sample-applications-hlfv1.git`
 
 
 
+通过/packages/getting-started/scripts目录下的脚本来完成Fabric的初始化与启动（图来自[官方教程](https://hyperledger.github.io/composer/getting-started/development-tools.html)）。
+
+![](https://hyperledger.github.io/composer/assets/img/developer-tools-commands.png)
+
+先将所需镜像拖拽到本地
+
+`./download-hyperledger.sh`
 
 
-
-###### 
 
 
 
