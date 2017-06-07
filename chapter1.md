@@ -1,6 +1,4 @@
-# 安装与开发环境的配置
-
-### 环境配置
+### 开发环境配置
 
 目前Hyperledger Composer支持Ubuntu Linux 14.04 / 16.04 LTS \(64-bit\), Mac OS 10.12。经测试，Debian 8.x亦支持。
 
@@ -32,57 +30,7 @@
 
 `curl -sSL http://acs-public-mirror.oss-cn-hangzhou.aliyuncs.com/docker-engine/internet | sh -`
 
-### 快速安装
-
-安装composer命令行包
-
-`npm install -g composer-cli`
-
-安装REST服务器生成包
-
-`npm install -g composer-rest-server`
-
-如希望搭建应用，可以使用yeoman及composer应用框架生产包：
-
-`npm install -g yo`
-
-`npm install -g composer-rest-server`
-
-
-
-快速搭建一个示例应用可以选择
-
-`git clone https://github.com/hyperledger/composer-sample-applications-hlfv1.git`
-
-通过/packages/getting-started/scripts目录下的脚本来完成Fabric的初始化与启动（图来自[官方教程](https://hyperledger.github.io/composer/getting-started/development-tools.html)）。
-
-![](https://hyperledger.github.io/composer/assets/img/developer-tools-commands.png)
-
-先将所需镜像拖拽到本地
-
-`./download-hyperledger.sh`
-
-生成Fabric与Composer的连接文件
-
-./`createProfile.sh`
-
-启动Fabric（v1.0.0 ，包含一个orderer, 一个ca，两个peer）
-
-`./start-hyperledger.sh`
-
-
-
-### 启动一个简单的应用：Land Registry
-
-回到/packages/getting-started，进行应用的快速启动
-
-`npm install`
-
-完成单元测试
-
-`npm test`
-
-
+### 
 
 
 
