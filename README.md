@@ -1,4 +1,4 @@
-# Hyperledger Composer使用不完全指南
+# Hyperledger Composer使用（不完全）指南
 
 作为一个曾经用过Fabric 0.6搭建简单应用演示的菜鸟，算是经历过写chaincode+使用cli/SDK与chaincode交互的日子。这种在我看来比较“经典”的开发模式，其实对建立一般的商业应来说，门槛有些高。
 
