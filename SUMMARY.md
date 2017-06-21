@@ -7,4 +7,6 @@
 * [1.3启动一个简单应用：Land Registry](qi-dong-yi-ge-jian-dan-ying-yong-ff1a-land-registry.md)
 * [1.4使用Land Registry](shi-yong-land-registry.md)
 * [如何使用REST服务器的身份验证](ru-he-shi-yong-rest-fu-wu-qi-de-shen-fen-yan-zheng.md)
+* [2.1 Hyperledger Composer的构成](21-hyperledger-composerde-gou-cheng.md)
+* [2.2使用modeling language描述用户角色](21shi-yong-modeling-language-miao-shu-yong-hu-jiao-se.md)
 

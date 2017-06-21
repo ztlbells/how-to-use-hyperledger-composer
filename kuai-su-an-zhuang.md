@@ -36,11 +36,9 @@
 
 成功完成启动的输出如下，粗体标出了较为重要的命令，便于定位错误源。
 
-
-
 在这个脚本中，完成了下述事项：
 
-docker-composer 在干净的环境中启动多个容器。
+docker-composer 在干净的环境中启动多个容器。（如何写docker-composer文件可以[参考此处](https://github.com/yeasy/docker-compose-files/tree/master/hyperledger)）
 
 * CA 
 * Orderer
@@ -52,8 +50,6 @@ sleep 15，等待启动过程
 通过调用fabric node SDK及fabric-client相关函数创建channel（create-channel.js）
 
 将节点加入channel（join-channel.js）
-
-
 
 > \# Grab the current directorydirectory.
 >
@@ -67,7 +63,7 @@ sleep 15，等待启动过程
 >
 > cd "${DIR}"/hlfv1
 >
-> **docker-compose -f docker-compose.yml down    
+> **docker-compose -f docker-compose.yml down        
 > **
 >
 > Removing network hlfv1\_default
@@ -76,7 +72,7 @@ sleep 15，等待启动过程
 >
 > docker ps -aq
 >
-> **docker-compose -f docker-compose.yml up -d    
+> **docker-compose -f docker-compose.yml up -d        
 > **
 >
 > Creating network "hlfv1\_default" with the default driver
@@ -95,7 +91,7 @@ sleep 15，等待启动过程
 >
 > sleep 15
 >
-> **node create-channel.js    
+> **node create-channel.js        
 > **
 >
 > info: Returning a new winston logger with default configurations
@@ -116,7 +112,7 @@ sleep 15，等待启动过程
 >
 > Successfully waited to make sure new channel was created.
 >
-> **node join-channel.js    
+> **node join-channel.js        
 > **
 >
 > info: Returning a new winston logger with default configurations
