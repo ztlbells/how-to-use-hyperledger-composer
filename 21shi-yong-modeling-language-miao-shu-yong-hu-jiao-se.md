@@ -28,7 +28,5 @@
 
 o后接类成员，--&gt;指向相关实例而非成员。此处incomingShipment代表一系列在途运件，故为array。
 
-其余详解可见[官方教程](https://hyperledger.github.io/composer/reference/cto_language.html)。
-
-
+其余详解可见[官方教程](https://hyperledger.github.io/composer/reference/cto_language.html)。如果需要添加访问控制权限可以参考[此处](https://hyperledger.github.io/composer/reference/acl_language.html)。
 
