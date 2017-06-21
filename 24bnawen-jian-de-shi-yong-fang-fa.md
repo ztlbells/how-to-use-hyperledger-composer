@@ -6,7 +6,9 @@
 npm install -g composer-cli
 ```
 
-#### 
+命令汇总与阐释[见此](https://hyperledger.github.io/composer/reference/commands.html)。
+
+
 
 #### 生成.bna文件
 
@@ -52,6 +54,4 @@ composer network deploy -a shipment-tracking-network@0.0.1.bna -i admin -s admin
 ![](/assets/WX20170602-231844@2x.png)
 
 也可以进行[node.js应用的开发](https://hyperledger.github.io/composer/applications/node.html)，或者使用`yo hyperledger-composer`生成骨架Angular项目。
-
-
 
