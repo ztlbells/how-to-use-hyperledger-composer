@@ -18,7 +18,11 @@
 
 `git clone https://github.com/hyperledger/composer-sample-applications-hlfv1.git`
 
-通过/packages/getting-started/scripts目录下的脚本来完成Fabric的初始化与启动（图来自[官方教程](https://hyperledger.github.io/composer/getting-started/development-tools.html)）。
+**\(第一次使用该实例应用，请先`npm install`，详细内容见1.3\)**
+
+
+
+可以通过/packages/getting-started/scripts目录下的脚本来完成Fabric的初始化与启动（图来自[官方教程](https://hyperledger.github.io/composer/getting-started/development-tools.html)）。
 
 ![](https://hyperledger.github.io/composer/assets/img/developer-tools-commands.png)
 
@@ -63,7 +67,7 @@ sleep 15，等待启动过程
 >
 > cd "${DIR}"/hlfv1
 >
-> **docker-compose -f docker-compose.yml down        
+> **docker-compose -f docker-compose.yml down              
 > **
 >
 > Removing network hlfv1\_default
@@ -72,7 +76,7 @@ sleep 15，等待启动过程
 >
 > docker ps -aq
 >
-> **docker-compose -f docker-compose.yml up -d        
+> **docker-compose -f docker-compose.yml up -d              
 > **
 >
 > Creating network "hlfv1\_default" with the default driver
@@ -91,7 +95,7 @@ sleep 15，等待启动过程
 >
 > sleep 15
 >
-> **node create-channel.js        
+> **node create-channel.js              
 > **
 >
 > info: Returning a new winston logger with default configurations
@@ -112,7 +116,7 @@ sleep 15，等待启动过程
 >
 > Successfully waited to make sure new channel was created.
 >
-> **node join-channel.js        
+> **node join-channel.js              
 > **
 >
 > info: Returning a new winston logger with default configurations

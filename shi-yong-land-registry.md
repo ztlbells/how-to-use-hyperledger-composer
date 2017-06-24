@@ -5,7 +5,7 @@
 可先使用单元测试预览各个功能
 
 ```
-node test
+npm test
 ```
 
 测试的命令有：
@@ -22,8 +22,6 @@ node test
 
 可使用composer-rest-server启动一个基于Loopback的REST服务器，具体方法[见此](https://hyperledger.github.io/composer/integrating/getting-started-rest-api.html)。需要注意的是，如果使用的是v1.0.0版本的Fabirc，内置用户名和密码应为admin和adminpw。
 
-
-
 #### 扩展阅读
 
 [手把手教你如何从零创建一个Hyperledger Composer应用](https://hyperledger.github.io/composer/tutorials/developer-guide.html)  （文中虽然提及VSCode Editor，但这不是必要组件）
@@ -31,8 +29,4 @@ node test
 [Hyperledger Composer解决方案架构](https://hyperledger.github.io/composer/introduction/solution-architecture.html)
 
 [术语表](https://hyperledger.github.io/composer/reference/glossary.html)
-
-
-
-
 
