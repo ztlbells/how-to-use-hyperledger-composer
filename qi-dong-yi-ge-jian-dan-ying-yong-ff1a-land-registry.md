@@ -7,13 +7,13 @@
 回到/packages/getting-started，进行应用的快速启动
 
 ```
-node install
+npm install
 ```
 
 查看可用命令
 
 ```
-node run
+npm run
 ```
 
 > Lifecycle scripts included in getting-started:
@@ -102,7 +102,7 @@ composer archive create --sourceName digitalproperty-network --sourceType module
 
 如无差错，应有如下输出：
 
-> **Creating Business Network Archive        
+> **Creating Business Network Archive          
 > **
 >
 > Node module search path :
@@ -125,7 +125,7 @@ composer archive create --sourceName digitalproperty-network --sourceType module
 >
 > Command completed successfully.
 >
-> **Command succeeded        
+> **Command succeeded          
 > **
 >
 > **Deploying business network from archive**: digitalPropertyNetwork.bna
@@ -140,10 +140,10 @@ composer archive create --sourceName digitalproperty-network --sourceType module
 >
 > ✔ Deploying business network definition. This may take a minute...
 >
-> **Command succeeded        
+> **Command succeeded          
 > **
 >
-> ✔** List business network digitalproperty-network        
+> ✔** List business network digitalproperty-network          
 > **
 >
 > **name:**       digitalproperty-network
@@ -152,12 +152,12 @@ composer archive create --sourceName digitalproperty-network --sourceType module
 >
 > * net.biz.digitalPropertyNetwork
 >
-> **scripts:         
+> **scripts:           
 > **
 >
 > * lib/DigitalLandTitle.js
 >
-> **registries:         
+> **registries:           
 > **
 >
 > net.biz.digitalPropertyNetwork.LandTitle:
@@ -180,7 +180,7 @@ composer archive create --sourceName digitalproperty-network --sourceType module
 > registryType: Asset
 > ```
 >
-> **Command succeeded        
+> **Command succeeded          
 > **
 
 
